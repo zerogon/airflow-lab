@@ -1,0 +1,4 @@
+1. 실습 환경사양
+- CPU : 4 core 이상
+- Memory : 8 GB 이상
+- Disk : 10 GB 이상
