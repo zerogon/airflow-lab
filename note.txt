@@ -1,10 +1,13 @@
 1. 실습 환경사양
 - CPU : 4 core 이상
-- Memory : 8 GB 이상
+- Memory : 최소 8 GB 이상, 16GB 권장
 - Disk : 10 GB 이상
 
 
-2. wsl에서 docker 설치
+2. airflow 설치
+2-1 wsl 설치하기
+2-2 도커설치하기
+2-3 도커를 통해 airflow 설치하기
 
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -32,3 +35,7 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
 
 5. airflow 실행
 docker compose up airflow-init
+docker compose up 
+
+6. airflow 종료
+docker compose down
