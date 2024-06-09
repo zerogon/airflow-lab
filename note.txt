@@ -46,3 +46,5 @@ dag파일 수정하면 잠시 후 airflow가 반영
 
 airflow가 오류난 DAG을 재 파싱하는 주기는 
 parsing_cleanup_interval 옵션을 통해 조절할 수 있습니다. 기본 값은 60(초)
+
+https://github.com/hjkim-sun/airflow
