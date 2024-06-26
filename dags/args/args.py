@@ -20,4 +20,11 @@ with DAG(
         python_callable=regist,
         op_args=['zerogon','man','kr','seoul']
     )
-        
+regist_t1
+
+'''
+def regist(name, sex, *args):
+    print(f'이름: {name}')
+    print(f'성별: {sex}')
+    print(f'기타옵션: {args}')
+'''

@@ -21,4 +21,4 @@ with DAG(
         op_args=['zerogon','man','kr','seoul'],
         op_kwargs={'email' : 'ss@na.com', 'phone' : '010'}
     )
-        
+regist2_t1
